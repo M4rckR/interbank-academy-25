@@ -1,0 +1,31 @@
+{
+  "name": "interbank-academy-25",
+  "version": "1.0.0",
+  "description": "Prueba tecnica",
+  "keywords": [
+    "prueba",
+    "tecnica",
+    "interbank",
+    "nodekjs"
+  ],
+  "homepage": "https://github.com/M4rckR/interbank-academy-25#readme",
+  "bugs": {
+    "url": "https://github.com/M4rckR/interbank-academy-25/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M4rckR/interbank-academy-25.git"
+  },
+  "license": "ISC",
+  "author": "Marcos Romero",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon --watch index.js --watch transacciones.csv index.js"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
